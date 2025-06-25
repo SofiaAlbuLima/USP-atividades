@@ -7,7 +7,7 @@ int main(){
     
     if(E < 0 || E > 5 || D < 0 || D > 5 || E == D){
         printf("erro\n");
-        return 0;
+        return 1;
     }
 
     if(E > D){
