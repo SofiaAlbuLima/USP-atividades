@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "ponto.h": "c",
+        "circulo.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c"
+    }
+}
