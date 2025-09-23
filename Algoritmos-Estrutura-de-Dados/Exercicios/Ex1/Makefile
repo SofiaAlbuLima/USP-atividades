@@ -7,6 +7,9 @@ ponto.o:
 circulo.o:
 	gcc -c circulo.c -o circulo.o
 
+zip:
+	zip -R arquivo.zip . '*.c' '*.h' 'Makefile' && mv arquivo.zip ~/Downloads
+
 run:
 	./main
 clean:
